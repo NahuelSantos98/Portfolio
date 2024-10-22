@@ -19,18 +19,12 @@ const CardProject = ({ item }) => {
                 </div>
                 <div className='w-full flex justify-center items-center gap-8'>
                     {link &&
-                        <a
-                            href={link}
-                            className={`mt-4 text-white bg-gray-700 hover:bg-gray-800 rounded-lg px-4 py-2 text-center ${!githubRepository ? "lg:w-full" : 'lg:w-[50%]'}`}
-                        >
+                        <a href={link} className={`mt-4 text-white bg-gray-700 hover:bg-gray-800 rounded-lg px-4 py-2 text-center ${!githubRepository ? "lg:w-full" : 'lg:w-[50%]'}`}>
                             Ir a la web
                         </a>
                     }
                     {githubRepository &&
-                        <a
-                            href={githubRepository}
-                            className={`mt-4 flex justify-center items-center text-white text-center bg-gray-700 hover:bg-gray-800 rounded-lg px-4 py-2 text-2xl ${!link ? "lg:w-full" : 'lg:w-[50%]'}`}
-                        >
+                        <a href={githubRepository} className={`mt-4 flex justify-center items-center text-white text-center bg-gray-700 hover:bg-gray-800 rounded-lg px-4 py-2 text-2xl ${!link ? "lg:w-full" : 'lg:w-[50%]'}`}>
                             <FaGithub />
                         </a>
                     }
