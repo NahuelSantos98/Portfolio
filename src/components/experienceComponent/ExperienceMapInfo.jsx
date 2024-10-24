@@ -1,14 +1,12 @@
 import { experience } from "../../utils/info";
-import CardProject from "../CardProject";
+import CardExperience from "./CardExperience";
 
 const ExperienceMapInfo = () => {
   return (
-    <div className="flex flex-col items-center"> 
-        {experience.map(item => 
-            <div key={item.id}>
-                <CardProject item={item} />
-            </div>
-        )}
+    <div className="flex flex-col items-center justify-center md:w-[50vw]">
+      {experience.map(item =>
+        <CardExperience key={item.id} item={item} />
+      )}
     </div>
   );
 }

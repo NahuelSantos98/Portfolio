@@ -26,18 +26,25 @@ const Navbar = () => {
                                 Home
                             </Link>
                             <Link
-                                to="#projects"
-                                className="text-white hover:bg-gray-700 rounded-lg p-2"
-                                onClick={(e) => handleSmoothScroll(e, "projects")}
-                            >
-                                Projects
-                            </Link>
-                            <Link
                                 to="#about"
                                 className="text-white hover:bg-gray-700 rounded-lg p-2"
                                 onClick={(e) => handleSmoothScroll(e, "about")}
                             >
                                 About Me
+                            </Link>
+                            <Link
+                                to="#experience"
+                                className="text-white hover:bg-gray-700 rounded-lg p-2"
+                                onClick={(e) => handleSmoothScroll(e, "experience")}
+                            >
+                                Experience
+                            </Link>
+                            <Link
+                                to="#projects"
+                                className="text-white hover:bg-gray-700 rounded-lg p-2"
+                                onClick={(e) => handleSmoothScroll(e, "projects")}
+                            >
+                                Projects
                             </Link>
                         </div>
                     </article>
@@ -59,30 +66,37 @@ const Navbar = () => {
             {showNav && (
                 <div className="md:hidden">
                     <div className="flex items-center justify-center">
-                    <a className="text-white w-[90vw] border border-white rounded-lg p-2 hover:bg-gray-700 mb-2 text-center">                            Descargar CV
+                        <a className="text-white w-[90vw] border border-white rounded-lg p-2 hover:bg-gray-700 mb-2 text-center">                            Descargar CV
                         </a>
                     </div>
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <Link 
+                        <Link
                             to="#"
                             className="text-white block hover:bg-gray-700 rounded-lg p-2"
                             onClick={(e) => handleSmoothScroll(e, "top")}
                         >
                             Home
                         </Link>
-                        <Link 
-                            to="#projects"
-                            className="text-white block hover:bg-gray-700 rounded-lg p-2"
-                            onClick={(e) => handleSmoothScroll(e, "projects")}
-                        >
-                            Projects
-                        </Link>
-                        <Link 
+                        <Link
                             to="#about"
                             className="text-white block hover:bg-gray-700 rounded-lg p-2"
                             onClick={(e) => handleSmoothScroll(e, "about")}
                         >
                             About Me
+                        </Link>
+                        <Link
+                            to="#experience"
+                            className="text-white block hover:bg-gray-700 rounded-lg p-2"
+                            onClick={(e) => handleSmoothScroll(e, "experience")}
+                        >
+                            Experience
+                        </Link>
+                        <Link
+                            to="#projects"
+                            className="text-white block hover:bg-gray-700 rounded-lg p-2"
+                            onClick={(e) => handleSmoothScroll(e, "projects")}
+                        >
+                            Projects
                         </Link>
                     </div>
                 </div>

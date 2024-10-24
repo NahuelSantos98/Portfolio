@@ -1,13 +1,18 @@
 export const handleSmoothScroll = (e, targetId) => {
     e.preventDefault(); 
     const targetElement = document.getElementById(targetId);
+    const navbarHeight = 80;
+
     if (targetElement) {
-        targetElement.scrollIntoView({
+        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - navbarHeight;
+
+        window.scrollTo({
+            top: targetPosition,
             behavior: "smooth",
-            block: "start",
         });
     }
 };
+
 
 export const handleScrollHome = (e)=>{
     e.preventDefault()
