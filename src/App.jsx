@@ -1,15 +1,18 @@
-import {Routes, Route} from 'react-router-dom'
-import Home from './pages/Home'
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
-
   return (
-    <div className='h-full w-full bg-black'>
+    <div className="relative h-full w-full">
+      <div className="fixed inset-0 bg-black z-[-2]">
+        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+        <div className="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
+      </div>
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<Home />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

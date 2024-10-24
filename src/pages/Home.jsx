@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-900 to-gray-700 min-h-screen"> {/* Fondo con degradado */}
+    <div className=" min-h-screen"> 
       <header className="sticky z-10 top-0 ">
         <Navbar />
       </header>
@@ -19,6 +19,7 @@ const Home = () => {
       {/* <section id="experience" className="px-4"> 
         <Experience />
       </section> */}
+      
       <div id="projects"></div>
       <section className="px-4 mt-20"> 
         <Projects />
