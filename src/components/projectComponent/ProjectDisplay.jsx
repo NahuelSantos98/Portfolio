@@ -1,16 +1,16 @@
-import { projects } from "../../utils/info"
-import CardProject from "../CardProject"
+import { projects } from "../../utils/info";
+import CardProject from "../CardProject";
 
 const ProjectDisplay = () => {
   return (
-    <div className="flex flex-col items-center"> 
+    <div className="flex flex-col items-center"> {/* Fondo opcional para destacar los proyectos */}
         {projects.map(item => 
             <div key={item.id}>
                 <CardProject item={item} />
             </div>
         )}
     </div>
-  )
+  );
 }
 
-export default ProjectDisplay
+export default ProjectDisplay;

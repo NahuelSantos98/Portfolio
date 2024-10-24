@@ -1,13 +1,17 @@
-import ProjectDisplay from "./projectComponent/ProjectDisplay"
+import ProjectDisplay from "./projectComponent/ProjectDisplay";
+import { FaCode } from "react-icons/fa";
 
 
 const Projects = () => {
   return (
-    <div className='mt-20'>
-        <p className='text-white text-2xl text-center mb-4 underline'>Projects</p>
-        <ProjectDisplay />
+    <div className='justify-center'>
+      <div className="flex flex-row items-center justify-center text-white text-2xl mb-4 underline">
+        <FaCode/>
+      <p>Projects</p>
+      </div>
+      <ProjectDisplay />
     </div>
   )
 }
 
-export default Projects
+export default Projects;

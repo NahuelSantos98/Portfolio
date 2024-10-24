@@ -1,12 +1,16 @@
-import ExperienceMapInfo from './experienceComponent/ExperienceMapInfo'
+import ExperienceMapInfo from './experienceComponent/ExperienceMapInfo';
+import { FaCode } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <div className='mt-20 md:mt-0'>
-        <p className='text-white text-2xl text-center mb-4 underline'>Experience</p>
-        <ExperienceMapInfo />
+    <div className='my-20 md:mt-0 justify-center'>
+            <div className="flex flex-row items-center justify-center text-white text-2xl mb-4 underline">
+        <FaCode/>
+      <p>Experience</p>
+      </div>
+      <ExperienceMapInfo />
     </div>
   )
 }
 
-export default Experience
+export default Experience;

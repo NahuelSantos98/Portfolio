@@ -6,11 +6,11 @@ const TextBanner = () => {
                 <p className="text-white text-left font-bold text-4xl lg:text-5xl">I AM NAHUEL</p>
                 <p className="text-white text-left font-bold text-4xl lg:text-5xl">A WEB DEVELOPER</p>
                 <p className="text-white text-left max-w-xs lg:max-w-lg">
-                    I enjoy combining my web development skills with design, leveraging my artistic eye and attention to detail.
+                    Disfruto creando con código, combinando mis habilidades de desarrollo web con diseño, aprovechando mi creatividad y atención al detalle.
                 </p>
-                <button className="w-[10rem] text-white border border-white rounded-lg p-2 my-4 hover:bg-white hover:text-black mb-2">
+                <a href="/CV Nahuel Martin Santos.pdf" download="CV Nahuel Martin Santos" className="w-[10rem] text-white border border-white rounded-lg p-2 my-4 hover:bg-gray-700 hover:text-black mb-2 text-center">
                     Descargar CV
-                </button>
+                </a>
             </div>
         </div>
     );

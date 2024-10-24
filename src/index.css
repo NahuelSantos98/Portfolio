@@ -19,3 +19,9 @@
 ::-webkit-scrollbar-track {
     background: #000; 
 }
+p{
+        white-space: pre-wrap;
+}
+.lineheight{
+    line-height: 1.7rem;
+}

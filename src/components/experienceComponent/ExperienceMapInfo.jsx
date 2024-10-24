@@ -1,5 +1,5 @@
-import { experience } from "../../utils/info"
-import CardProject from "../CardProject"
+import { experience } from "../../utils/info";
+import CardProject from "../CardProject";
 
 const ExperienceMapInfo = () => {
   return (
