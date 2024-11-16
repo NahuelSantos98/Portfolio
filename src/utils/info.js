@@ -35,7 +35,7 @@ export const projects = [
     {
         id: 1,
         name: "Artesust",
-        description: "Mi primera experiencia laboral como freelance consistió en el desarrollo y diseño de una página web para una clienta artista. Ella se comunicó conmigo con el fin de exponer sus obras y difundir su trabajo en el rubro. \nLas tecnologías utilizadas fueron React Js con CSS nativo, y la página fue publicada en un hosting. \nEsta sigue activa y con la clienta hacemos seguimientos semanales con Google Analytics.",
+        description: "Mi primera experiencia laboral como freelance consistió en el desarrollo y diseño de una página web para mi mamá que es artista. Al ser un familiar tenía el doble de presión para que la página quede perfecta. Ella me pidió una página personal donde el fin era poder exponer sus obras y difundir su trabajo en el rubro. \nLas tecnologías utilizadas fueron React Js con CSS nativo, la página fue publicada en un hosting. \nEsta sigue activa y con la ella hacemos seguimientos semanales con Google Analytics y cambios que solicité con el tiempo.",
         img: artesust,
         link: 'https://www.artesust.com.ar/#/',
         githubRepository: 'https://github.com/NahuelSantos98/arte.sust'

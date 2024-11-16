@@ -9,7 +9,7 @@ const Footer = () => {
         <span className="text-lg mb-2 md:mb-0">Nahuel Martin Santos</span>
         <div className="flex space-x-4 items-center">
           <a 
-              href="/CV Nahuel Martin Santos.pdf" 
+              href="/CV-Nahuel Martin Santos.pdf" 
               download="CV Nahuel Martin Santos" 
               className="text-white border border-white rounded-lg p-2 my-4 hover:bg-gray-700 hover:scale-105 active:scale-none mb-2 text-center transition-all duration-300 ease-in-out"
           >

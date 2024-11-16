@@ -1,8 +1,8 @@
 import About from "../components/About";
 import Banner from "../components/Banner";
-import Experience from "../components/Experience";
+import Studies from "../components/Studies";
 import Navbar from "../components/Navbar";
-import Projects from "../components/Projects";
+import Experience from "../components/Experience";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -20,12 +20,12 @@ const Home = () => {
         <About />
       </section>
 
-      <section id="experience" className="px-4">
-        <Experience />
+      <section id="studies" className="px-4">
+        <Studies />
       </section>
 
-      <section id="projects" className="px-4 my-20">
-        <Projects />
+      <section id="experience" className="px-4 my-20">
+        <Experience />
       </section>
 
       <footer>

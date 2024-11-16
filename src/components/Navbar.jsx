@@ -33,23 +33,23 @@ const Navbar = () => {
                                 About Me
                             </Link>
                             <Link
+                                to="#studies"
+                                className="text-white hover:bg-gray-700 rounded-lg p-2"
+                                onClick={(e) => handleSmoothScroll(e, "studies")}
+                            >
+                                Studies
+                            </Link>
+                            <Link
                                 to="#experience"
                                 className="text-white hover:bg-gray-700 rounded-lg p-2"
                                 onClick={(e) => handleSmoothScroll(e, "experience")}
                             >
                                 Experience
                             </Link>
-                            <Link
-                                to="#projects"
-                                className="text-white hover:bg-gray-700 rounded-lg p-2"
-                                onClick={(e) => handleSmoothScroll(e, "projects")}
-                            >
-                                Projects
-                            </Link>
                         </div>
                     </article>
                     <article className="hidden md:flex items-center space-x-4">
-                        <a href="/CV Nahuel Martin Santos.pdf" download="CV Nahuel Martin Santos" className="text-white border border-white rounded-lg p-2 hover:bg-gray-700 text-center active:scale-90 mb-2 text-center transition-[background] duration-300 ease-in-out">
+                        <a href="/CV-Nahuel Martin Santos.pdf" download="CV Nahuel Martin Santos" className="text-white border border-white rounded-lg p-2 hover:bg-gray-700 text-center active:scale-90 mb-2 text-center transition-[background] duration-300 ease-in-out">
                             Descargar CV
                         </a>
                     </article>
@@ -85,18 +85,18 @@ const Navbar = () => {
                             About Me
                         </Link>
                         <Link
+                            to="#studies"
+                            className="text-white block hover:bg-gray-700 rounded-lg p-2"
+                            onClick={(e) => handleSmoothScroll(e, "studies")}
+                        >
+                            Studies
+                        </Link>
+                        <Link
                             to="#experience"
                             className="text-white block hover:bg-gray-700 rounded-lg p-2"
                             onClick={(e) => handleSmoothScroll(e, "experience")}
                         >
                             Experience
-                        </Link>
-                        <Link
-                            to="#projects"
-                            className="text-white block hover:bg-gray-700 rounded-lg p-2"
-                            onClick={(e) => handleSmoothScroll(e, "projects")}
-                        >
-                            Projects
                         </Link>
                     </div>
                 </div>
