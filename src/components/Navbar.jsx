@@ -49,7 +49,7 @@ const Navbar = () => {
                         </div>
                     </article>
                     <article className="hidden md:flex items-center space-x-4">
-                        <a href="/CV-Nahuel Martin Santos.pdf" download="CV Nahuel Martin Santos" className="text-white border border-white rounded-lg p-2 hover:bg-gray-700 text-center active:scale-90 mb-2 text-center transition-[background] duration-300 ease-in-out">
+                        <a href="/CV-Nahuel Santos.pdf" download="CV Nahuel Martin Santos" className="text-white border border-white rounded-lg p-2 hover:bg-gray-700 text-center active:scale-90 mb-2 text-center transition-[background] duration-300 ease-in-out">
                             Descargar CV
                         </a>
                     </article>
@@ -66,7 +66,7 @@ const Navbar = () => {
             {showNav && (
                 <div className="md:hidden">
                     <div className="flex items-center justify-center">
-                        <a className="text-white w-[90vw] border border-white rounded-lg p-2 hover:bg-gray-700 mb-2 text-center">                            Descargar CV
+                        <a href="/CV-Nahuel Santos.pdf" download="CV Nahuel Martin Santos" className="text-white w-[90vw] border border-white rounded-lg p-2 hover:bg-gray-700 mb-2 text-center">                            Descargar CV
                         </a>
                     </div>
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
