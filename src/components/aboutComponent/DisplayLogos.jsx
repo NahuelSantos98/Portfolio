@@ -1,6 +1,6 @@
 import MapLogos from './MapLogos';
 import { backend, frontend } from '../../utils/info';
-
+import PropTypes from 'prop-types';
 const DisplayLogos = ({ showFront }) => {
   return (
     <div className='lg:w-[25rem]'>
@@ -17,6 +17,10 @@ const DisplayLogos = ({ showFront }) => {
       }
     </div>
   );
+};
+
+DisplayLogos.propTypes = {
+  showFront: PropTypes.bool.isRequired,
 };
 
 export default DisplayLogos;

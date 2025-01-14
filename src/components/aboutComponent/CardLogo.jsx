@@ -1,9 +1,8 @@
 import { useState } from 'react'
-
+import PropTypes from 'prop-types';
 const CardLogo = ({ logo }) => {
     const { name, url } = logo;
 
-    // Mover el estado a nivel del logo
     const [showTooltip, setShowTooltip] = useState(false);
 
     return (
@@ -28,5 +27,12 @@ const CardLogo = ({ logo }) => {
         </div>
     )
 }
+
+CardLogo.propTypes = {
+    logo: PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired,
+    }).isRequired,
+};
 
 export default CardLogo

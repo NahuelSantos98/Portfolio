@@ -55,7 +55,7 @@ const Navbar = () => {
                     </article>
                     <article className="md:hidden flex items-center">
                         <button
-                            className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                            className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white"
                             onClick={() => setShowNav(!showNav)}
                         >
                             {!showNav ? <CgMenu className="text-2xl" /> : <RxCross2 className="text-2xl" />}

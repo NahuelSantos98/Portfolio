@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const CardExperience = ({ item }) => {
 
@@ -22,5 +23,15 @@ const CardExperience = ({ item }) => {
         </ol>
     )
 }
+
+CardExperience.propTypes = {
+    item: PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        duration: PropTypes.string.isRequired,
+        certificate: PropTypes.string,
+        sabermas: PropTypes.string.isRequired,
+    }).isRequired,
+};
 
 export default CardExperience

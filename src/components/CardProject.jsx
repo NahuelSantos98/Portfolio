@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa";
+import PropTypes from 'prop-types';
 
 const CardProject = ({ item }) => {
     const { name, description, img, link, githubRepository } = item;
@@ -32,6 +33,16 @@ const CardProject = ({ item }) => {
             </div>
         </div>
     );
+};
+
+CardProject.propTypes = {
+    item: PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        img: PropTypes.string.isRequired,
+        link: PropTypes.string,
+        githubRepository: PropTypes.string,
+    }).isRequired,
 };
 
 export default CardProject;

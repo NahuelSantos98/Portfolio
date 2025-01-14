@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import CardLogo from './CardLogo';
-
+import PropTypes from 'prop-types';
 const MapLogos = ({ logos }) => {
     return (
         <div className="flex flex-wrap justify-center gap-4 mt-4">
@@ -9,6 +8,10 @@ const MapLogos = ({ logos }) => {
             })}
         </div>
     );
+};
+
+MapLogos.propTypes = {
+    logos: PropTypes.array.isRequired,
 };
 
 export default MapLogos;
