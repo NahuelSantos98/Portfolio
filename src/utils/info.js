@@ -41,7 +41,14 @@ export const experience = [
 
 export const projects = [
     {
-        id: 1,
+        id:1,
+        name: "Backend con teoría",
+        description:"Este proyecto ha sido desarrollado mientras avanzo en mi aprendizaje de Node.js, Express y tecnologías relacionadas. Su objetivo es proporcionar a cualquier persona una forma alternativa y complementaria de aprender, ofreciendo contenido adicional y organizado por temas independientes para facilitar su comprensión.\nHe recibido comentarios positivos de personas a quienes este material les ayudó a resolver dudas y entender mejor los temas, lo que me motiva a seguir contribuyendo al aprendizaje colectivo y al crecimiento de la comunidad interesada en estas tecnologías.",
+        img: backendImage,
+        githubRepository: "https://github.com/NahuelSantos98/NodeJs-Teoria"
+    },
+    {
+        id: 2,
         name: "Backend Tienda Online",
         description: "Proyecto final del curso de Backend utilizando Node Js, Express, MongoDB, Mongoose. El proyecto incluye la gestión (CRUD) de productos y de carritos de compras. Se implementa una API RESTful para la gestión de las entidades y se utilizó Postman para probar las rutas. Actualmente lo estoy mejorando mientras aprendo más sobre Node Js, Express, almacenamiento, sessions y cookies.",
         img: backendImage,
@@ -49,7 +56,7 @@ export const projects = [
         githubRepository: 'https://github.com/NahuelSantos98/NodeJs-Nahuel-Santos'
     },
     {
-        id: 2,
+        id: 3,
         name: "Artesust",
         description: "Mi primera experiencia laboral como freelance consistió en el desarrollo y diseño de una página web para mi mamá que es artista. Al ser un familiar tenía el doble de presión para que la página quede perfecta. Ella me pidió una página personal donde el fin era poder exponer sus obras y difundir su trabajo en el rubro. \nLas tecnologías utilizadas fueron React Js con CSS nativo, la página fue publicada en un hosting. \nEsta sigue activa y con ella hacemos seguimientos semanales con Google Analytics y cambios que solicité con el tiempo.",
         img: artesust,
@@ -57,7 +64,7 @@ export const projects = [
         githubRepository: 'https://github.com/NahuelSantos98/arte.sust'
     },
     {
-        id: 3,
+        id: 4,
         name: "Tu Cancha",
         description: 'Tu Cancha fue un proyecto grupal presentado como trabajo final de la Tecnicatura "Professional Developer" en Digital House, donde me encargué del Front-end. \nEs un gestor para administrar complejos deportivos donde los dueños (Administradores) pueden gestionar el CRUD de canchas, visualizar reservas y administrar usuarios y roles, permitiendo cambiar de Cliente a Operador. \nLos Operadores manejan el CRUD de canchas y las reservas. \nLos Clientes pueden navegar por la app, ver detalles de canchas, consultar disponibilidad, hacer reservas y revisar su historial. \nActualmente, se está trabajando para desplegarlo en una nueva plataforma debido a que tuvimos problemas con AWS.',
         img: tuCancha,
@@ -65,7 +72,7 @@ export const projects = [
         githubRepository: 'https://gitlab.com/eltonarmelini.it/rtc-frontend'
     },
     {
-        id: 4,
+        id: 5,
         name: "E-Commerce",
         description: 'Este E-commerce lo realicé como proyecto final para el curso de React.Js en Coder House. \nEn él utilicé la mencionada bibVercela junto con CSS sin librerías externas. \nLa aplicación incluye la gestión de productos, el procesamiento de pedidos y funciones de compra, todas conectadas a Firestore Database de la plataforma Firebase para el almacenamiento y gestión de datos. \nEl proyecto está desplegado en Vercel, una plataforma en la nube que facilita el despliegue rápido y eficiente de aplicaciones web.',
         img: ecommerce,
@@ -73,7 +80,7 @@ export const projects = [
         githubRepository: 'https://github.com/NahuelSantos98/Ecommerce-ReactJs'
     },
     {
-        id: 5,
+        id: 6,
         name: "Odontologia backend",
         img: backendImage,
         description: 'Este proyecto es un manejador backend que gestiona tres entidades principales: Paciente, Odontólogo y Turno. Además, se incluye la entidad Domicilio, que está directamente asociada a Paciente. Con estas entidades, se puede llevar a cabo un CRUD completo. \nEl desarrollo se realizó utilizando Java con Spring y Spring Boot, así como Maven y Hibernate. Para la gestión de la base de datos, se utiliza H2 Database, mientras que la documentación se genera a través de Swagger. \nEste proyecto está basado en el patrón de diseño MVC (Modelo-Vista-Controlador), y también implementa el patrón DTO (Data Transfer Object) utilizando JPA. Para la interacción con el ORM, se emplea ModelMapper.',
