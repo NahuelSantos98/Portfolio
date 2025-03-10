@@ -98,6 +98,7 @@ export const projects = [
     }
 ]
 
+
 export const frontend = [
     { name: "HTML", url: "https://i.ibb.co/P6JZZBd/html.png" },
     { name: "CSS", url: "https://i.ibb.co/2KZcPvH/css.png" },
