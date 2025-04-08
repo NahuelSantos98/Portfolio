@@ -2,7 +2,7 @@ import artesust from './artesust.png'
 import ecommerce from './ecommerce.png'
 import tuCancha from './TuCancha.jpeg'
 import backendImage from './BackendImage.jpeg'
-import torrecillas from './torrecillas.png'
+// import torrecillas from './torrecillas.png'
 
 export const experience = [
     {
@@ -41,14 +41,14 @@ export const experience = [
 
 
 export const projects = [
-    {
-        id:1,
-        name: "Torrecillas Cariló Frontend (Desarrollando)",
-        description: "Desarrollo de una web para el hotel Torrecillas Cariló Apart Hotel & Spa. Mi función en este proyecto es el desarrollo completo del frontend de la página, también la realizaciónd de un panel de administración para que la misma sea parametrizable a las preferencias del cliente (Desarrollando). Las tecnologías utilizadas fueron React con Vite, TailwindCSS, Redux para el manejo del contexto de toda la web. La plataforma de control de versiones utilizada fue GitLab. Actualmente se está trabajando en este proyecto.",
-        img: torrecillas,
-        githubRepository: "https://gitlab.com/hernandezmoro08/torrecillas1.0-front-end",
-        link: "https://torrecillas.eltonarmelini.com/#/"
-    },
+    // {
+    //     id:1,
+    //     name: "Torrecillas Cariló Frontend (Desarrollando)",
+    //     description: "Desarrollo de una web para el hotel Torrecillas Cariló Apart Hotel & Spa. Mi función en este proyecto es el desarrollo completo del frontend de la página, también la realizaciónd de un panel de administración para que la misma sea parametrizable a las preferencias del cliente (Desarrollando). Las tecnologías utilizadas fueron React con Vite, TailwindCSS, Redux para el manejo del contexto de toda la web. La plataforma de control de versiones utilizada fue GitLab. Actualmente se está trabajando en este proyecto.",
+    //     img: torrecillas,
+    //     githubRepository: "https://gitlab.com/hernandezmoro08/torrecillas1.0-front-end",
+    //     link: "https://torrecillas.eltonarmelini.com/#/"
+    // },
     {
         id:2,
         name: "Backend con teoría",
