@@ -7,7 +7,7 @@ const Experience = () => {
     <div className='justify-center h--full'>
       <div className="flex flex-row items-center justify-center text-white text-2xl mb-4 underline">
         <FaCode/>
-      <p>Experience</p>
+      <p> Experiencia</p>
       </div>
       <ProjectDisplay />
     </div>

@@ -23,28 +23,28 @@ const Navbar = () => {
                                 className="text-white hover:bg-gray-700 rounded-lg p-2"
                                 onClick={(e) => handleScrollHome(e)}
                             >
-                                Home
+                                Inicio
                             </Link>
                             <Link
                                 to="#about"
                                 className="text-white hover:bg-gray-700 rounded-lg p-2"
                                 onClick={(e) => handleSmoothScroll(e, "about")}
                             >
-                                About Me
+                                Sobre mí
                             </Link>
                             <Link
                                 to="#studies"
                                 className="text-white hover:bg-gray-700 rounded-lg p-2"
                                 onClick={(e) => handleSmoothScroll(e, "studies")}
                             >
-                                Studies
+                                Estudios
                             </Link>
                             <Link
                                 to="#experience"
                                 className="text-white hover:bg-gray-700 rounded-lg p-2"
                                 onClick={(e) => handleSmoothScroll(e, "experience")}
                             >
-                                Experience
+                                Experiencia
                             </Link>
                         </div>
                     </article>
@@ -75,28 +75,28 @@ const Navbar = () => {
                             className="text-white block hover:bg-gray-700 rounded-lg p-2"
                             onClick={(e) => handleSmoothScroll(e, "top")}
                         >
-                            Home
+                            Inicio
                         </Link>
                         <Link
                             to="#about"
                             className="text-white block hover:bg-gray-700 rounded-lg p-2"
                             onClick={(e) => handleSmoothScroll(e, "about")}
                         >
-                            About Me
+                            Sobre mí
                         </Link>
                         <Link
                             to="#studies"
                             className="text-white block hover:bg-gray-700 rounded-lg p-2"
                             onClick={(e) => handleSmoothScroll(e, "studies")}
                         >
-                            Studies
+                            Estudios
                         </Link>
                         <Link
                             to="#experience"
                             className="text-white block hover:bg-gray-700 rounded-lg p-2"
                             onClick={(e) => handleSmoothScroll(e, "experience")}
                         >
-                            Experience
+                            Experiencia
                         </Link>
                     </div>
                 </div>

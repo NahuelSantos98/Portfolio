@@ -1,9 +1,9 @@
 import artesust from './artesust.png'
-import ecommerce from './ecommerce.png'
-import tuCancha from './TuCancha.jpeg'
+// import ecommerce from './ecommerce.png'
 import backendImage from './BackendImage.jpeg'
 import torrecillas from './torrecillas.png'
 import bremot from './Bremot.png'
+import massimple from './massimple.png'
 
 export const experience = [
     {
@@ -43,6 +43,14 @@ export const experience = [
 
 export const projects = [
     {
+        id: "+simple",
+        name: "+Simple Project",
+        description: "Este proyecto es una plataforma fullstack de logística con entornos de staging y producción. La PWA, desarrollada con React y Vite, permite a los riders aceptar o rechazar pedidos ofrecidos, calcular y visualizar rutas en tiempo real utilizando Google Maps, y está desplegada en AWS mediante S3, CloudFront y Route 53 con dominio propio. El dashboard, construido con Next.js, funciona como panel de administración desde donde se pueden visualizar métricas y gestionar tiendas, pedidos, rutas, riders, zonas y corporaciones, también desplegado en AWS con la misma infraestructura. El backend, basado en Node.js con Serverless, integra autenticación y autorización, notificaciones con Firebase, subida de imágenes desde el frontend a un bucket S3 y está montado sobre Lambda y API Gateway. En el futuro, la API estará disponible para que terceros puedan integrar la plataforma en sus operaciones logísticas.",
+        img: massimple,
+        // githubRepository: "https://github.com/diegoburgosar/pun",
+        link: "https://massimple.la/"
+    },
+    {
         id: "bremot-front",
         name: "Bremot SA",
         description: "En este proyecto estuve a cargo del desarrollo frontend completo para la empresa Bremot SA, donde se muestra información institucional y un catálogo de productos.\nImplementé dos formularios con PHP Mailer: uno de contacto que envía los datos del cliente y una consulta directamente a la empresa, y otro para cotización de productos donde el usuario puede indicar medidas específicas y cantidades para recibir un presupuesto personalizado.\nAmbos formularios están protegidos con Google reCAPTCHA para evitar envíos automáticos y garantizar mayor seguridad.\nTodo el proyecto fue realizado utilizando React con Vite y estilado con TailwindCSS, asegurando una experiencia moderna, rápida y responsive.",
@@ -81,22 +89,14 @@ export const projects = [
         link: 'https://www.artesust.com.ar/#/',
         githubRepository: 'https://github.com/NahuelSantos98/arte.sust'
     },
-    {
-        id: "tu-cancha",
-        name: "Tu Cancha",
-        description: 'Tu Cancha fue un proyecto grupal presentado como trabajo final de la Tecnicatura "Professional Developer" en Digital House, donde me encargué del Front-end. \nEs un gestor para administrar complejos deportivos donde los dueños (Administradores) pueden gestionar el CRUD de canchas, visualizar reservas y administrar usuarios y roles, permitiendo cambiar de Cliente a Operador. \nLos Operadores manejan el CRUD de canchas y las reservas. \nLos Clientes pueden navegar por la app, ver detalles de canchas, consultar disponibilidad, hacer reservas y revisar su historial.',
-        img: tuCancha,
-        // link: "https://ecommerce-react-js-nu.vercel.app/",
-        githubRepository: 'https://gitlab.com/eltonarmelini.it/rtc-frontend'
-    },
-    {
-        id: "e-commerce-react",
-        name: "E-Commerce",
-        description: 'Este E-commerce lo realicé como proyecto final para el curso de React.Js en Coder House. \nEn él utilicé la mencionada bibVercela junto con CSS sin librerías externas. \nLa aplicación incluye la gestión de productos, el procesamiento de pedidos y funciones de compra, todas conectadas a Firestore Database de la plataforma Firebase para el almacenamiento y gestión de datos. \nEl proyecto está desplegado en Vercel, una plataforma en la nube que facilita el despliegue rápido y eficiente de aplicaciones web.',
-        img: ecommerce,
-        link: "https://ecommerce-react-js-nu.vercel.app/",
-        githubRepository: 'https://github.com/NahuelSantos98/Ecommerce-ReactJs'
-    },
+    // {
+    //     id: "e-commerce-react",
+    //     name: "E-Commerce",
+    //     description: 'Este E-commerce lo realicé como proyecto final para el curso de React.Js en Coder House. \nEn él utilicé la mencionada bibVercela junto con CSS sin librerías externas. \nLa aplicación incluye la gestión de productos, el procesamiento de pedidos y funciones de compra, todas conectadas a Firestore Database de la plataforma Firebase para el almacenamiento y gestión de datos. \nEl proyecto está desplegado en Vercel, una plataforma en la nube que facilita el despliegue rápido y eficiente de aplicaciones web.',
+    //     img: ecommerce,
+    //     link: "https://ecommerce-react-js-nu.vercel.app/",
+    //     githubRepository: 'https://github.com/NahuelSantos98/Ecommerce-ReactJs'
+    // },
     {
         id: "odontologia-backend",
         name: "Odontologia backend",
