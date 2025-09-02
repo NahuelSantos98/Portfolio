@@ -48,7 +48,12 @@ export const projects = [
         description: "Este proyecto es una plataforma fullstack de logística con entornos de staging y producción. La PWA, desarrollada con React y Vite, permite a los riders aceptar o rechazar pedidos ofrecidos, calcular y visualizar rutas en tiempo real utilizando Google Maps, y está desplegada en AWS mediante S3, CloudFront y Route 53 con dominio propio. El dashboard, construido con Next.js, funciona como panel de administración desde donde se pueden visualizar métricas y gestionar tiendas, pedidos, rutas, riders, zonas y corporaciones, también desplegado en AWS con la misma infraestructura. El backend, basado en Node.js con Serverless, integra autenticación y autorización, notificaciones con Firebase, subida de imágenes desde el frontend a un bucket S3 y está montado sobre Lambda y API Gateway. En el futuro, la API estará disponible para que terceros puedan integrar la plataforma en sus operaciones logísticas.",
         img: massimple,
         // githubRepository: "https://github.com/diegoburgosar/pun",
-        link: "https://massimple.la/"
+        link: "https://massimple.la/",
+        tech: {
+            frontend: ["React", "Vite", "TailwindCSS", "Next.js", ],
+            backend: ["Node.js", "Serverless", "Lambda", "API Gateway"],
+            database: ["Firebase", "AWS S3", "AWS Route 53", "AWS CloudFront", "MongoDB"],
+        }
     },
     {
         id: "bremot-front",
@@ -56,7 +61,11 @@ export const projects = [
         description: "En este proyecto estuve a cargo del desarrollo frontend completo para la empresa Bremot SA, donde se muestra información institucional y un catálogo de productos.\nImplementé dos formularios con PHP Mailer: uno de contacto que envía los datos del cliente y una consulta directamente a la empresa, y otro para cotización de productos donde el usuario puede indicar medidas específicas y cantidades para recibir un presupuesto personalizado.\nAmbos formularios están protegidos con Google reCAPTCHA para evitar envíos automáticos y garantizar mayor seguridad.\nTodo el proyecto fue realizado utilizando React con Vite y estilado con TailwindCSS, asegurando una experiencia moderna, rápida y responsive.",
         img: bremot,
         // githubRepository: "https://gitlab.com/hernandezmoro08/torrecillas1.0-front-end",
-        link: "https://bremot.com.ar/"
+        link: "https://bremot.com.ar/",
+        tech: {
+            frontend: ["React", "Vite", "TailwindCSS"],
+            backend: ["PHP Mailer", "Google reCAPTCHA"],
+        }
     },
     {
         id: "torrecillas-front",
@@ -64,14 +73,20 @@ export const projects = [
         description: "Desarrollo de web para el hotel Torrecillas Cariló Apart Hotel & Spa. Mi función en este proyecto fue el desarrollo completo del frontend de la página, también la realización de un panel de administración para que la misma sea parametrizable a las preferencias del cliente. Las tecnologías utilizadas fueron React con Vite, TailwindCSS, Redux para el manejo del contexto de toda la web. La plataforma de control de versiones utilizada fue GitLab.",
         img: torrecillas,
         // githubRepository: "https://gitlab.com/hernandezmoro08/torrecillas1.0-front-end",
-        link: "https://www.torrecillascarilo.com.ar/"
+        link: "https://www.torrecillascarilo.com.ar/",
+        tech: {
+            frontend: ["React", "Vite", "TailwindCSS", "Redux"],
+        }
     },
     {
         id: "backend-node-teoria",
         name: "Backend con teoría",
         description:"Este proyecto ha sido desarrollado mientras avanzo en mi aprendizaje de Node.js, Express y tecnologías relacionadas. Su objetivo es proporcionar a cualquier persona una forma alternativa y complementaria de aprender, ofreciendo contenido adicional y organizado por temas independientes para facilitar su comprensión.\nHe recibido comentarios positivos de personas a quienes este material les ayudó a resolver dudas y entender mejor los temas, lo que me motiva a seguir contribuyendo al aprendizaje colectivo y al crecimiento de la comunidad interesada en estas tecnologías.",
         img: backendImage,
-        githubRepository: "https://github.com/NahuelSantos98/NodeJs-Teoria"
+        githubRepository: "https://github.com/NahuelSantos98/NodeJs-Teoria",
+        tech: {
+            backend: ["Node.js", "Express", "MongoDB", "Mongoose"],
+        }
     },
     {
         id: "backend-node-tienda",
@@ -79,7 +94,10 @@ export const projects = [
         description: "Proyecto final del curso de Backend utilizando Node Js, Express, MongoDB, Mongoose. El proyecto incluye la gestión (CRUD) de productos y de carritos de compras. Se implementa una API RESTful para la gestión de las entidades y se utilizó Postman para probar las rutas. Actualmente lo estoy mejorando mientras aprendo más sobre Node Js, Express, almacenamiento, sessions y cookies.",
         img: backendImage,
         // link: '',
-        githubRepository: 'https://github.com/NahuelSantos98/NodeJs-Nahuel-Santos'
+        githubRepository: 'https://github.com/NahuelSantos98/NodeJs-Nahuel-Santos',
+        tech: {
+            backend: ["Node.js", "Express", "MongoDB", "Mongoose", "Postman"],
+        }
     },
     {
         id: "artesust",
@@ -87,9 +105,23 @@ export const projects = [
         description: "Mi primera experiencia laboral como freelance consistió en el desarrollo y diseño de una página web para mi mamá que es artista. Al ser un familiar tenía el doble de presión para que la página quede perfecta. Ella me pidió una página personal donde el fin era poder exponer sus obras y difundir su trabajo en el rubro. \nLas tecnologías utilizadas fueron React Js con CSS nativo, la página fue publicada en un hosting. \nEsta sigue activa y con ella hacemos seguimientos semanales con Google Analytics y cambios que solicité con el tiempo.",
         img: artesust,
         link: 'https://www.artesust.com.ar/#/',
-        githubRepository: 'https://github.com/NahuelSantos98/arte.sust'
+        githubRepository: 'https://github.com/NahuelSantos98/arte.sust',
+        tech: {
+            frontend: ["React","Vite", "CSS"],
+        }
     },
-    // {
+    {
+        id: "odontologia-backend",
+        name: "Odontologia backend",
+        img: backendImage,
+        description: 'Este proyecto es un manejador backend que gestiona tres entidades principales: Paciente, Odontólogo y Turno. Además, se incluye la entidad Domicilio, que está directamente asociada a Paciente. Con estas entidades, se puede llevar a cabo un CRUD completo. \nEl desarrollo se realizó utilizando Java con Spring y Spring Boot, así como Maven y Hibernate. Para la gestión de la base de datos, se utiliza H2 Database, mientras que la documentación se genera a través de Swagger. \nEste proyecto está basado en el patrón de diseño MVC (Modelo-Vista-Controlador), y también implementa el patrón DTO (Data Transfer Object) utilizando JPA. Para la interacción con el ORM, se emplea ModelMapper.',
+        // link: '',
+        githubRepository: 'https://github.com/NahuelSantos98/Java-Backend-odontologia',
+        tech: {
+            backend: ["Java", "Spring", "Spring Boot", "Maven", "Hibernate", "H2 Database", "Swagger"],
+        }
+    },
+        // {
     //     id: "e-commerce-react",
     //     name: "E-Commerce",
     //     description: 'Este E-commerce lo realicé como proyecto final para el curso de React.Js en Coder House. \nEn él utilicé la mencionada bibVercela junto con CSS sin librerías externas. \nLa aplicación incluye la gestión de productos, el procesamiento de pedidos y funciones de compra, todas conectadas a Firestore Database de la plataforma Firebase para el almacenamiento y gestión de datos. \nEl proyecto está desplegado en Vercel, una plataforma en la nube que facilita el despliegue rápido y eficiente de aplicaciones web.',
@@ -97,14 +129,6 @@ export const projects = [
     //     link: "https://ecommerce-react-js-nu.vercel.app/",
     //     githubRepository: 'https://github.com/NahuelSantos98/Ecommerce-ReactJs'
     // },
-    {
-        id: "odontologia-backend",
-        name: "Odontologia backend",
-        img: backendImage,
-        description: 'Este proyecto es un manejador backend que gestiona tres entidades principales: Paciente, Odontólogo y Turno. Además, se incluye la entidad Domicilio, que está directamente asociada a Paciente. Con estas entidades, se puede llevar a cabo un CRUD completo. \nEl desarrollo se realizó utilizando Java con Spring y Spring Boot, así como Maven y Hibernate. Para la gestión de la base de datos, se utiliza H2 Database, mientras que la documentación se genera a través de Swagger. \nEste proyecto está basado en el patrón de diseño MVC (Modelo-Vista-Controlador), y también implementa el patrón DTO (Data Transfer Object) utilizando JPA. Para la interacción con el ORM, se emplea ModelMapper.',
-        // link: '',
-        githubRepository: 'https://github.com/NahuelSantos98/Java-Backend-odontologia'
-    }
 ]
 
 
