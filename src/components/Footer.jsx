@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer className="bg-black bg-opacity-4 text-white py-4">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <span className="text-lg mb-2 md:mb-0">Nahuel Martin Santos</span>
+        <span className="text-lg mb-2 md:mb-0">Nahuel Martín Santos</span>
         <div className="flex space-x-4 items-center">
           <a 
-              href="/CV-Nahuel Santos.pdf" 
+              href={`${import.meta.env.BASE_URL}cv-nahuel-santos.pdf`} 
               download="CV Nahuel Martin Santos" 
               className="text-white border border-white rounded-lg p-2 my-4 hover:bg-gray-700 hover:scale-105 active:scale-none mb-2 text-center transition-all duration-300 ease-in-out"
           >
