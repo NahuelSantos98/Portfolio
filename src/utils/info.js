@@ -92,7 +92,8 @@ export const projects = [
     {
         id: "backend-node-tienda",
         name: "Backend Tienda Online",
-        description: "Proyecto final del curso de Backend utilizando Node Js, Express, MongoDB, Mongoose. El proyecto incluye la gestión (CRUD) de productos y de carritos de compras. Se implementa una API RESTful para la gestión de las entidades y se utilizó Postman para probar las rutas. Actualmente lo estoy mejorando mientras aprendo más sobre Node Js, Express, almacenamiento, sessions y cookies.",
+        description: "Este backend es una plataforma completa para gestionar un e-commerce, que permite administrar productos, carritos de compra, usuarios, tickets de compra y envíos de correos electrónicos de forma integrada. Está desarrollado con Node.js, Express y MongoDB, utiliza Mongoose para la capa de datos, Passport con JWT y cookies para la autenticación y control de roles, y Nodemailer para el envío automático de mails (como tickets de compra y recuperación de contraseña). Además, cuenta con vistas dinámicas en Handlebars, validaciones con express-validator y documentación interactiva de la API mediante Swagger.",
+        
         img: backendImage,
         // link: '',
         githubRepository: 'https://github.com/NahuelSantos98/NodeJs-Nahuel-Santos',
