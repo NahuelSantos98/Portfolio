@@ -85,7 +85,8 @@ export const projects = [
         img: backendImage,
         githubRepository: "https://github.com/NahuelSantos98/NodeJs-Teoria",
         tech: {
-            backend: ["Node.js", "Express", "MongoDB", "Mongoose"],
+            backend: ["Node.js", "Express"],
+            database: [ "MongoDB", "Mongoose"],
         }
     },
     {
@@ -96,7 +97,8 @@ export const projects = [
         // link: '',
         githubRepository: 'https://github.com/NahuelSantos98/NodeJs-Nahuel-Santos',
         tech: {
-            backend: ["Node.js", "Express", "MongoDB", "Mongoose", "Postman"],
+            backend: ["Node.js", "Express", "Postman"],
+            database: [ "MongoDB", "Mongoose"],
         }
     },
     {
@@ -118,7 +120,8 @@ export const projects = [
         // link: '',
         githubRepository: 'https://github.com/NahuelSantos98/Java-Backend-odontologia',
         tech: {
-            backend: ["Java", "Spring", "Spring Boot", "Maven", "Hibernate", "H2 Database", "Swagger"],
+            backend: ["Java", "Spring", "Spring Boot", "Maven", "Hibernate", "Swagger"],
+            database: [ "H2 Database"],
         }
     },
         // {
